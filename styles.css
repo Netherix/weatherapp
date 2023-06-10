@@ -1,0 +1,67 @@
+* {
+    font-family: quicksand;
+    font-weight: bold;
+    font-size: large;
+}
+
+body {
+    background-image: url('images/pexels-hasan-zahra-2118553.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card .card-body .card-title {
+    color: rgb(2, 208, 223);
+    font-size: 24px;
+    margin-bottom: 20px; /* Adjust the margin-bottom value as desired */
+}
+
+
+.form-control {
+    margin-bottom: 10px;
+    border-color: rgb(2, 208, 223);
+}
+
+.form-control::placeholder {
+    color: rgb(2, 208, 223);
+}
+
+.search_button {
+    margin-top: 10px;
+}
+
+#weather-details {
+    margin-top: 20px;
+}
+
+#weather-details div {
+    margin-bottom: 10px;
+}
+
+.search_button.btn.btn-outline-info:hover {
+    color: white;
+}
